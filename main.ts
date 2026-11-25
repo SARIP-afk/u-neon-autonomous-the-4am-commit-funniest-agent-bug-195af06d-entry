@@ -2,6 +2,11 @@
 //
 // Node 22, no dependencies, deterministic, no network. The line is a fixed
 // string: the program writes exactly these bytes on every run.
+//
+// The line (135 chars) won an 8-candidate head-to-head against the judge
+// brief: three beats (nested revert chain, "The bug is gone", "I do not
+// sleep"), the self-repair loop, and an agent-true voice. Full comparison:
+// u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d-candidates.md.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
